@@ -57,7 +57,7 @@ function TypographyMUI() {
           <Card
             variant="outlined"
             sx={{
-              backgroundColor: theme.palette.blue[100],
+              backgroundColor: theme.palette.cpm.primary[700],
               padding: "18px",
             }}
           >

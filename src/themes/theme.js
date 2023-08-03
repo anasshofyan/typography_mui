@@ -93,6 +93,7 @@ const theme = createTheme({
     },
   }),
   palette: {
+    //General Colors
     neutral: {
       900: "#131313", // Darkest shade
       800: "#424242",
@@ -114,6 +115,46 @@ const theme = createTheme({
       300: "#64B5F6",
       200: "#90CAF9",
       100: "#BBDEFB",
+    },
+
+    //CPM Colors
+    cpm: {
+      primary: {
+        900: "#211339", // Darkest shade
+        800: "#372160",
+        700: "#4D2E87",
+        600: "#4D2E87",
+        500: "#6F42C1",
+        400: "#6F42C1",
+        300: "#9A7AD3",
+        200: "#B7A0E0",
+        100: "#D3C6EC",
+        50: "#F0ECF8",
+      },
+      secondary: {
+        900: "#396201", // Darkest shade
+        800: "#497702",
+        700: "#609404",
+        600: "#78B105",
+        500: "#78B105",
+        400: "#78B105",
+        300: "#78B105",
+        200: "#E6FA99",
+        100: "#F4FCCC",
+        50: "#F4FAE6",
+      },
+      tertiary: {
+        900: "#7A3D0A", // Darkest shade
+        800: "#935211",
+        700: "#B76F1C",
+        600: "#DB8F28",
+        500: "#DB8F28",
+        400: "#FFCB69",
+        300: "#FFDA87",
+        200: "#FFE9AF",
+        100: "#FFF5D7",
+        50: "#FFF7EB",
+      },
     },
   },
 });
