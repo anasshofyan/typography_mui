@@ -92,6 +92,19 @@ const theme = createTheme({
       textTransform: "uppercase",
     },
   }),
+  palette: {
+    neutral: {
+      900: "#131313", // Darkest shade
+      800: "#424242",
+      700: "#595959",
+      600: "#717171",
+      500: "#898989",
+      400: "#A0A0A0",
+      300: "#B8B8B8",
+      200: "#E7E7E7",
+      100: "#F5F5F5",
+    },
+  },
 });
 
 export default theme;
