@@ -1,5 +1,10 @@
+import Button from "@mui/material/Button";
 function TypographyMUI() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Button variant="contained">Hello World</Button>
+    </div>
+  );
 }
 
 export default TypographyMUI;
