@@ -2,6 +2,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
+import Card from "@mui/material/Card";
 import theme from "../../src/themes/theme";
 
 function TypographyMUI() {
@@ -42,6 +43,17 @@ function TypographyMUI() {
             <br />
             <Typography variant="overline">Overline</Typography>
           </div>
+          <hr />
+          <Card
+            variant="outlined"
+            sx={{
+              backgroundColor: theme.palette.neutral[100],
+              padding: "18px",
+            }}
+          >
+            <Typography variant="h1">h1. Heading</Typography>
+          </Card>
+          <hr />
           <Tooltip title="Delete">
             <Button variant="contained" style={{ borderRadius: "100px" }}>
               Hello World
